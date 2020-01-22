@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+
+    background: white;
+    color: black;
+}
+.container {
+
+}
+
+.body {
+    background: red;
+}
