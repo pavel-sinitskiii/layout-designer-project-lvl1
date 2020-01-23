@@ -4,18 +4,66 @@
     background :#fff;
     color: black;
 }
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 50px;
     padding-right: 20px;
     
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.logo_name {
+    margin: 10px;
 }
 
  .nav_link {
     text-decoration: none;
     color: #000;
     margin: 0 10px;
+ }
 
+ .block_one {
+     width: 100%;
+     height: 500px;
+     background: url(../images/banner.png) center no-repeat;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .div_block_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+ }
+
+ .h1_block_one {
+     margin-top: 20px;
+     margin-bottom: 0px;
+     font-size: 48px;
+ }
+
+ .h3_block_one {
+    margin-top: 0px;
+    font-size: 18px;
+ }
+
+ .button {
+     background: rgb(255, 255, 255, 0);
+     color: white;
+     border: 1px solid white;
+     border-radius: 4px;
+     margin-top: 50px;  
+     padding: 10px;
+     font-size: 14px;
  }
