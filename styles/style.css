@@ -112,7 +112,7 @@
     justify-content: space-around;
     align-items: center;
     width: 1000px;
-    background: rgb(128, 128, 128, 0.5);
+    background: rgb(128, 128, 128, 0.2);
  }
 
  .info {
@@ -131,9 +131,44 @@
      width: 400px;
  }
 
+ .feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+    background: rgb(128, 128, 128, 0.2);
+
+ }
+
+ fieldset {
+     color: #30d5c8;
+     border: solid 1px #30d5c8;
+     width: 300px;
+ }
+
+.div_parameters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+ select {
+     width: 100px;
+ }
 
 
+ .button2 {
 
+    background: rgb(255, 255, 255, 0);
+    color: #30d5c8;
+    border: 1px solid #30d5c8;
+    border-radius: 4px;
+    margin-top: 10px;  
+    padding: 10px;
+    font-size: 14px;
+}
 
 
 

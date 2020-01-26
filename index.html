@@ -17,9 +17,9 @@
         <p class="logo_name">Лунное море</p>
     </div>
         <nav class="header_menu">
-                <a class="nav_link" href="#">Преимущества</a> 
-                <a class="nav_link" href="#">О ЖК</a> 
-                <a class="nav_link" href="#">Места для отдыха</a> 
+                <a class="nav_link" href="#advantages">Преимущества</a> 
+                <a class="nav_link" href="#info">О ЖК</a> 
+                <a class="nav_link" href="#place_to_relax">Места для отдыха</a> 
         </nav>
     </div>
 </header>
@@ -30,13 +30,15 @@
         <img src="images/logo.svg" width="150">
         <h1 class="h1_block_one">ЖК «Лунное море»</h1>
         <h3 class="h3_block_one">Место, откуда не хочется улетать</h3>
-        <button class="button">Забронировать</button>
+        <form action="#feedback">
+            <button class="button">Забронировать</button>
+        </form>
     </div>
     </section>
 
     <section class="block_two">
 
-        <div class="div_block_two">
+        <div class="div_block_two" id="advantages">
             <div class="advantages">
                 <h2>Уникальный вид</h2>
                 <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -51,7 +53,7 @@
             </div>
         </div>  
 
-        <div class="div_block_three">
+        <div class="div_block_three" id="info">
             <div class="info">
             <h2>О ЖК «Лунное море»</h2>
             <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -62,7 +64,7 @@
             </div>
         </div>    
        
-        <div class="div_block_four">
+        <div class="div_block_four" id="place_to_relax">
             <div class="place_to_relax">
                 <h2>Места для отдыха</h2>
                 <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -72,7 +74,47 @@
                 <img src="images/moon-2.jpg" width="250px">
             </div>
         </div>
-    </section>
+
+        <div class="feedback" id="feedback">
+            <h2>Оставьте заявку сегодня!</h2>
+                <fieldset>
+                    <legend>Параметры квартиры</legend>
+                <div class="div_parameters">
+                    <label>Количество комнат:</label>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="div_parameters">
+                    <label>Отделка:</label>
+                    <select>
+                        <option>Без отделки</option>
+                        <option>Стандартная отделка</option>
+                        <option>Дизайнерский ремонт</option>
+                    </select>
+                </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Контактная информация</legend>
+                        <div class="div_parameters">
+                            <label>Имя:</label>
+                            <input type="text">  
+                        </div> 
+                        <div class="div_parameters">   
+                            <label>Телефон:</label>
+                            <input type="text">
+                        </div>     
+                        <div class="div_parameters">    
+                            <label>E-mail:</label>
+                            <input type="text">
+                        </div> 
+                </fieldset>       
+                <button class="button2">Отправить</button>
+        </div>
+    </section>  
 </main>
 <footer>Подвал</footer>
 </body>
