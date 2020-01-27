@@ -22,17 +22,17 @@
     margin: 5px;
 }
 
-.logo_name {
+.logo-name {
     margin: 10px;
 }
 
- .nav_link {
+ .nav-link {
     text-decoration: none;
     color: #000;
     margin: 0 10px;
  }
 
- .block_one {
+ .block-one {
      width: 100%;
      height: 450px;
      background: url(../images/banner.png) center no-repeat;
@@ -41,7 +41,7 @@
      align-items: center;
  }
 
- .div_block_one {
+ .div-block-one {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,13 +50,13 @@
     
  }
 
- .h1_block_one {
+ .h1-block-one {
      margin-top: 20px;
      margin-bottom: 0px;
      font-size: 48px;
  }
 
- .h3_block_one {
+ .h3-block-one {
     margin-top: 0px;
     font-size: 18px;
  }
@@ -71,7 +71,7 @@
      font-size: 14px;
  }
 
- .block_two {
+ .block-two {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,7 @@
     background-size: 100%;
 }
 
- .div_block_two {
+ .div-block-two {
      display: flex;
      justify-content: space-around;
      width: 1000px;
@@ -105,7 +105,7 @@
      margin-top: 0px;
  }
 
- .div_block_three {
+ .div-block-three {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -117,7 +117,8 @@
     width: 400px;
  }
  
- .div_block_four {
+ 
+ .div-block-four {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -125,7 +126,7 @@
     width: 1000px;
  }
 
- .place_to_relax {
+ .place-to-relax {
      width: 400px;
  }
 
@@ -145,7 +146,7 @@
      width: 300px;
  }
 
-.div_parameters {
+.div-parameters {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,19 +184,19 @@
    
 }
 
-.footer_left {
+.footer-left {
     display: flex;
     flex-direction: column;
     
 }
 
-.logo_footer {
+.logo-footer {
     display: flex;
     justify-content: center;
     margin: 5px;
 }
 
-.logo_name_footer {
+.logo-name-footer {
     color: white;
     margin: 10px;
     font-size: 12px;
@@ -207,7 +208,7 @@
     
 }
 
-.design_doc {
+.design-doc {
     color: white;
 }
 
@@ -217,7 +218,7 @@ h3 {
     margin-bottom: 0px;
 }
 
-.nav_footer {
+.nav-footer {
     font-size: 10px;
 
 }
