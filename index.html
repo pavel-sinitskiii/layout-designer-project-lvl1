@@ -25,20 +25,20 @@
 </header>
 
 <main>
-    <section class="block-one">
-        <div class="div-block-one">
+    <section class="intro">
+        <div class="div-intro">
         <img src="images/logo.svg" width="150" alt="Логотип">
-        <h1 class="h1-block-one">ЖК «Лунное море»</h1>
-        <h3 class="h3-block-one">Место, откуда не хочется улетать</h3>
+        <h1 class="h1-intro">ЖК «Лунное море»</h1>
+        <h3 class="h3-intro">Место, откуда не хочется улетать</h3>
         <form action="#feedback">
             <button class="button">Забронировать</button>
         </form>
     </div>
     </section>
 
-    <section class="block-two">
+    <section class="description">
 
-        <div class="div-block-two" id="advantages">
+        <div class="div-advantages" id="advantages">
             <div class="advantages">
                 <h2>Уникальный вид</h2>
                 <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -53,7 +53,7 @@
             </div>
         </div>  
 
-        <div class="div-block-three" id="info">
+        <div class="div-info" id="info">
             <div class="info">
             <h2>О ЖК «Лунное море»</h2>
             <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -64,7 +64,7 @@
             </div>
         </div>    
        
-        <div class="div-block-four" id="place-to-relax">
+        <div class="div-place-to-relax" id="place-to-relax">
             <div class="place-to-relax">
                 <h2>Места для отдыха</h2>
                 <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -77,9 +77,10 @@
 
         <div class="feedback" id="feedback">
             <h2>Оставьте заявку сегодня!</h2>
+            <div class="div-parameters">
                 <fieldset>
                     <legend>Параметры квартиры</legend>
-                <div class="div-parameters">
+                    <div class="parameters">
                     <label>Количество комнат:</label>
                     <select>
                         <option>1</option>
@@ -87,7 +88,7 @@
                         <option>3</option>
                     </select>
                 </div>
-                <div class="div-parameters">
+                <div class="parameters">
                     <label>Отделка:</label>
                     <select>
                         <option>Без отделки</option>
@@ -95,29 +96,33 @@
                         <option>Дизайнерский ремонт</option>
                     </select>
                 </div>
+            </div>
                 </fieldset>
 
+            <div class="div-contact-info">
                 <fieldset>
                     <legend>Контактная информация</legend>
-                        <div class="div-parameters">
+                            <div class="contact-info">
                             <label>Имя:</label>
                             <input type="text">  
                         </div> 
-                        <div class="div-parameters">   
+                        <div class="contact-info">   
                             <label>Телефон:</label>
                             <input type="text">
                         </div>     
-                        <div class="div-parameters">    
+                        <div class="contact-info">    
                             <label>E-mail:</label>
                             <input type="text">
-                        </div> 
-                </fieldset>       
+                        </div>        
+                </fieldset>
+            </div>       
                 <button class="button2">Отправить</button>
         </div>
     </section>  
 </main>
 
 <footer class="footer">
+    <div class="div-footer">
 
     <div class="footer-left">
         <div class="logo-footer">
@@ -146,6 +151,7 @@
             </ul>
         </nav>
     </div>  
+</div>
 </footer>
 </body>
 </html>
