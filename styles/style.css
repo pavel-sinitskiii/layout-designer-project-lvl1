@@ -35,7 +35,7 @@ header {
     justify-content: space-around;
 }
 
-.al-fs {
+.ai-fs {
     align-items: flex-start;
 }
 
@@ -47,26 +47,26 @@ header {
     flex-direction: row-reverse;
 }
 
-.bgc-white {
+.bgclr-white {
     background-color: white;
 }
 
-.bgc-gray {
+.bgclr-gray {
     background-color: rgb(128, 128, 128, 0.2);
 }
-.bgc-dark-gray {
+.bgclr-dark-gray {
     background: rgb(55, 58, 71);
 }
 
-.c-black {
+.clr-black {
     color: black;
 }
 
-.c-white {
+.clr-white {
     color: white;
 }
 
-.c-green {
+.clr-green {
     color: #30d5c8;
 }
 
@@ -74,33 +74,33 @@ header {
     background-size: 100%;
 }
 
-.wh-100p {
+.wdh-100p {
     width: 100%;
 }
 
-.wh-300 {
+.wdh-300 {
     width: 300px;
 }
 
-.wh-400 {
+.wdh-400 {
     width: 400px;
 }
-.wh-1000 {
+.wdh-1000 {
     width: 1000px;
 }
 
-.mg-top {
+.mrg-top {
     margin-top: var(--height-header);
 }
 
-.mg-5 {
+.mrg-5 {
     margin: 5px;
 }
-.mg-10 {
+.mrg-10 {
     margin: 10px;
 }
 
-.pg-5 {
+.pdg-5 {
     padding: 5px;
 }
 
@@ -170,11 +170,11 @@ p {
    margin-top: 0px;
 }
 
-.pg-25-0 {
+.pdg-25-0 {
     padding: 25px 0;
  }
 
- .pg-20-0 {
+ .pdg-20-0 {
     padding: 20px 0;
  }
 
@@ -207,5 +207,3 @@ input {
     padding: 5px 0px;
     margin-right: 10px;
 }
-
-
