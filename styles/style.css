@@ -4,20 +4,33 @@ body {
     padding: 0;
 }
 
-header {
-    position: fixed;
-    top: 0px;
-}
-
 :root {
     --height-header: 50px;
 }
 
-.size-header {
+header {
+    position: fixed;
+    top: 0px;
     height: var(--height-header);
-    padding-right: 20px; 
+    width: 100%;
+    padding: 5px;
+    background-color: white;
 }
 
+.mrg-top {
+    margin-top: var(--height-header);
+
+}
+
+#advantages,#info,#place-to-relax,#feedback {
+    border-top: var(--height-header) solid transparent;
+    margin-top: calc(var(--height-header) * (-1));
+    -moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+    
+}
+   
 .container {
     display: flex;
     align-items: center;      
@@ -70,10 +83,6 @@ header {
     color: #30d5c8;
 }
 
-.bgs-100p {
-    background-size: 100%;
-}
-
 .wdh-100p {
     width: 100%;
 }
@@ -87,10 +96,6 @@ header {
 }
 .wdh-1000 {
     width: 1000px;
-}
-
-.mrg-top {
-    margin-top: var(--height-header);
 }
 
 .mrg-5 {
@@ -138,10 +143,11 @@ header {
     text-decoration: none;
     margin: 0 10px;
     font-size: 14px;
+    padding-right: 20px;
  }
 
  .intro {
-    height: 450px;
+    padding: 70px;
     background: url(../images/banner.png) center no-repeat; 
  }
 
@@ -167,7 +173,7 @@ h3 {
 
 p {
    font-size: 16px;
-   margin-top: 0px;
+   margin-top: 5px;
 }
 
 .pdg-25-0 {

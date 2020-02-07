@@ -1,1 +1,1 @@
-left-horse.surge.sh
+cooperative-yam.surge.sh
