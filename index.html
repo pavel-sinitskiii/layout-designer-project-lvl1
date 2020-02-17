@@ -9,9 +9,8 @@
 </head>
 
 <body>
-    <header class="header">
-       <div class="container justify-content-between"> 
-            <div class="container justify-content-center m-10">
+    <header class="header content-locations justify-content-between">
+            <div class="content-locations justify-content-center p-5">
                 <img src="images/logo.svg" width="30" alt="Логотип">
                 <p class="m-10">Лунное море</p>
             </div>
@@ -20,20 +19,17 @@
                 <a class="nav-link color-black" href="#info">О ЖК</a> 
                 <a class="nav-link color-black" href="#place-to-relax">Места для отдыха</a> 
             </nav>
-        </div>
     </header>
 
-<main class="container flex-direction-column justify-content-center bgcolor-white m-top">  
-    <section class="intro container flex-direction-column justify-content-center w-100p">   
+<main class="content-locations flex-direction-column justify-content-center bgcolor-white m-top">  
+    <section class="intro content-locations flex-direction-column justify-content-center w-100p">   
         <img src="images/logo.svg" width="150" alt="Логотип">
             <h1 class="intro-title p-5 color-white">ЖК «Лунное море»</h1>
             <h3 class="slogan font-size-16 p-5 color-white">Место, откуда не хочется улетать</h3>
             <a class="btn btn-white color-white" href="#feedback">Забронировать</a>
     </section> 
-    
-    <div class="bgcolor-white">
-        <div class="container justify-content-center flex-direction-column ">
-            <section class="container justify-content-around align-items-start w-1000 p-5 " id="advantages">
+
+            <section class="content-locations justify-content-around align-items-start w-1000 p-5 " id="advantages">
                 <div class="w-300">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
@@ -50,7 +46,7 @@
                 </div>
             </section>
      
-            <section class="container justify-content-around w-1000 p-25-0 bgcolor-gray" id="info">
+            <section class="content-locations justify-content-around w-1000 p-25-0 bgcolor-gray" id="info">
                 <div class="w-400 p-5">
                     <h2>О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
@@ -62,7 +58,7 @@
                 </div>
             </section>    
  
-            <section class="container flex-direction-row-reverse justify-content-around w-1000 p-25-0" id="place-to-relax">
+            <section class="content-locations flex-direction-row-reverse justify-content-around w-1000 p-25-0" id="place-to-relax">
                 <div class="w-400 p-5">
                     <h2>Места для отдыха</h2>
                     <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
@@ -74,13 +70,12 @@
                 </div>
             </section>
       
-            <section class="container flex-direction-column w-1000 pgb-30 bgcolor-gray" id="feedback">
+            <section class="content-locations flex-direction-column w-1000 pgb-30 bgcolor-gray" id="feedback">
                 <h2>Оставьте заявку сегодня!</h2>
-                    <form action="">
-                        <div class="form container flex-direction-column ">
+                    <form class="form">
                             <fieldset class="color-green">
                                 <legend>Параметры квартиры</legend>
-                                <div class="form-title container justify-content-between font-size-16 color-black">
+                                <div class="form-title content-locations">
                                 <label>Количество комнат:</label>
                                 <select class="bgcolor-white">
                                     <option>1</option>
@@ -88,7 +83,7 @@
                                     <option>3</option>
                                 </select>
                                 </div>
-                            <div class="form-title container justify-content-between font-size-16 color-black">
+                            <div class="form-title content-locations">
                                 <label>Отделка:</label>
                                 <select class="bgcolor-white">
                                     <option>Без отделки</option>
@@ -97,40 +92,32 @@
                                 </select>
                             </div>
                             </fieldset>
-                
-                        </div>
                     </form>
-                    <form action="">
-                        <div class="form container flex-direction-column ">
+                    <form class="form">
                             <fieldset class="color-green">
                                 <legend>Контактная информация</legend>
-                                    <div class="form-title container justify-content-between font-size-16 color-black">
+                                    <div class="form-title content-locations">
                                         <label>Имя:</label>
                                         <input class="bgcolor-white" type="text">  
                                     </div> 
-                                    <div class="form-title container justify-content-between font-size-16 color-black">   
+                                    <div class="form-title content-locations">   
                                         <label>Телефон:</label>
                                         <input  class="bgcolor-white" type="text">
                                     </div>     
-                                    <div class="form-title container justify-content-between font-size-16 color-black">    
+                                    <div class="form-title content-locations">    
                                         <label>E-mail:</label>
                                         <input class="bgcolor-white" type="text">
                                     </div>        
                             </fieldset>
-                        </div>  
                     </form>     
                 <button class="btn btn-green color-green">Отправить</button>
             </section> 
-        </div>
-    </div>
 </main>
 
-<footer class="container justify-content-center">
-    <div class="bgcolor-white">
-        <div class="container justify-content-center ">
-            <div class="container justify-content-around w-1000 p-20-0 bgcolor-dark-gray">
+<footer class="content-locations justify-content-center bgcolor-white">
+            <div class="content-locations justify-content-around w-1000 p-20-0 bgcolor-dark-gray">
                 <div class="align-items-start flex-direction-column p-5">
-                    <div class="container justify-content-center m-5">
+                    <div class="content-locations justify-content-center m-5">
                         <img src="images/logo.svg" width="30" alt="Логотип">
                         <p class="color-white m-10 font-size-12">Лунное море</p>
                     </div>
@@ -157,8 +144,6 @@
                         </nav>
                 </div>  
             </div>
-        </div>
-    </div>
 </footer>
 </body>
 </html>

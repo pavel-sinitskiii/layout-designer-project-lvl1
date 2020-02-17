@@ -8,13 +8,10 @@ body {
     --height-header: 50px;
 }
 
-header {
+.header {
     position: fixed;
     top: 0px;
     height: var(--height-header);
-}
-
-.header {
     padding: 5px;
     width: 100%;
     background-color: white;
@@ -34,7 +31,7 @@ header {
     
 }
    
-.container {
+.content-locations {
     display: flex;
     align-items: center;      
 }
@@ -212,7 +209,11 @@ input {
 }
 
 .form-title {
+    justify-content: space-between;
+    font-size: 16px;
+    color: black;
     margin: 5px 5px;
     padding: 5px 0px;
     margin-right: 10px;
 }
+ 
