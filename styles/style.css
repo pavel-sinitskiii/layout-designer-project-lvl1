@@ -71,6 +71,13 @@ body {
     background: rgb(55, 58, 71);
 }
 
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
 .color-black {
     color: black;
 }
@@ -146,9 +153,14 @@ body {
     padding-right: 20px;
  }
 
+ .box-sizing-border{
+    box-sizing: border-box; 
+ }
+
  .intro {
     padding: 70px;
-    background: url(../images/banner.png) center no-repeat; 
+    background: url(../images/banner.png) center no-repeat;
+    box-sizing: border-box; 
  }
 
  .intro-title {
