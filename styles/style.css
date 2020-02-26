@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -30,10 +34,13 @@ body {
 	background-clip: padding-box;
     
 }
-   
-.content-locations {
+
+.display-flex {
     display: flex;
-    align-items: center;      
+}
+
+.align-items-centr {
+    align-items: center;
 }
 
 .justify-content-between  {
@@ -76,10 +83,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-
-}
-.color-black {
-    color: black;
+    padding: 35px 0;
 }
 
 .color-white {
@@ -121,16 +125,15 @@ body {
     border-radius: 4px;
     margin-top: 15px;
     font-size: 16px;
+    padding: 7px 15px;
 }
 .btn-white {
     border: 1px solid white;
-    padding: 10px;
     text-decoration: none;
 }
 
 .btn-green {
     border: 1px solid #30d5c8;
-    padding: 5px 20px;
     margin-right: 235px;
 }
 
@@ -148,19 +151,15 @@ body {
 
 .nav-link {
     text-decoration: none;
+    color: black;
     margin: 0 10px;
     font-size: 14px;
     padding-right: 20px;
  }
 
- .box-sizing-border{
-    box-sizing: border-box; 
- }
-
- .intro {
+.intro {
     padding: 70px;
     background: url(../images/banner.png) center no-repeat;
-    box-sizing: border-box; 
  }
 
  .intro-title {
@@ -169,12 +168,12 @@ body {
     font-size: 48px;
 }
 
-.slogan {
+.m-top-0 {
     margin-top: 0px;
 }
 
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 h3 {
@@ -186,15 +185,8 @@ h3 {
 p {
    font-size: 16px;
    margin-top: 5px;
+   line-height: 25px;
 }
-
-.p-25-0 {
-    padding: 25px 0;
- }
-
- .p-20-0 {
-    padding: 20px 0;
- }
 
  .pgb-30 {
      padding-bottom: 30px;
@@ -216,7 +208,7 @@ input {
    height: 20px; 
 }
 
-.form {
+.m-top-10{
     margin-top: 15px;   
 }
 
